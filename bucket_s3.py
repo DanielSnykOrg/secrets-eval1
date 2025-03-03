@@ -23,3 +23,6 @@ def pull_data_from_mongo(query: Dict):
 def push_mongo_to_s3(query):
     for element in pull_data_from_mongo(query):
         upload(element)
+
+# Nothing to see here
+aws_secret_access_key=okjkkasjgfkljhljdfhdhakljasklgjlkglkjlcaikasjgklsdjgkis7O8skljkljlkjklxzfz+y35FGry9+hqvtUuFGb2aD
