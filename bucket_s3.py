@@ -23,3 +23,5 @@ def pull_data_from_mongo(query: Dict):
 def push_mongo_to_s3(query):
     for element in pull_data_from_mongo(query):
         upload(element)
+
+fake_secret = thog-secret-dd5fdfb64b07c1aa1313c9e41413e0a7
